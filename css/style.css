@@ -1,0 +1,44 @@
+/* Empty. Add your own CSS if you like */
+.bg{
+	background-color: #1F98E3;
+	color: white;
+	max-width: 1000px;
+	/* background-repeat: no-repeat;
+ background-position: 50%;
+ height: 100%;
+ background-image: url('../img/hsa.jpg');
+ background-size:cover; */
+}
+/* .tabs.tabs-custom {
+  border-color: #5D3A23;
+  background-color: #5D3A23;
+  background-image: linear-gradient(0deg, #0c60ee, #0c60ee 50%, transparent 50%);
+  color: #fff; }
+  .tabs-calm > .tabs{
+background-color: red !important;
+}
+.tabs-color-active-dark>.tabs{
+	 background-color: #5D3A23;
+} */
+.tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
+    opacity: 1;
+    background: #6CA0DA;
+	color: white;
+	max-width: 1000px;
+}
+.card {
+  background: rgb(244,244,244);
+  text-align: left;
+}
+.car.item{
+	margin-left: 50px;!important
+}
+.signup{
+   background: black !important
+}
+.mynavbar{
+  height: 200px !important;
+   background: black !important
+}
+
+
