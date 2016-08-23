@@ -1,32 +1,48 @@
-<ion-view>
-  <ion-content class="padding">
-  <div>
-   <div class="card">
-  <span style="margin-left: 05px;" > <h3>Account Information</h3></span>
-  
- 
-</div>
-</div>
-<div>
-<div class="card">
-<h3>Make Contribution</h3>
- 
-</div>
-<div>
-<div class="card">
-
-    <h3>Make Disbursement</h3>
- 
-</div>
-<div class="card">
-
-    <h3>Recent Account Activity</h3>
- 
-</div>
-<div class="card">
-
-    <h3>Statements</h3>
- 
-</div>
-  </ion-content>
+<ion-view style="background-color:#DEDEDE;">
+	<ion-content  on-swipe-right="goBack()" on-swipe-left="goForward()">
+	
+		<div class="padding" >
+			<div class="list">
+				<a class="item item-avatar" href="#account">
+					<img src="img/make.png">
+					<div style="font-size:20px">Account Information</div>
+				</a>
+			</div>
+			<div class="list">
+				<a class="item item-avatar" href="#contribution">
+				<img src="img/make.png">
+				<div style="font-size:20px"> Make Contibution</div>
+				</a>
+			</div>
+			
+			<div class="list">
+				<a class="item item-avatar" href="#make">
+				<img src="img/trans.png">
+				<div style="font-size:20px">Make Disbursement</div>
+				</a>
+			</div>
+			
+			<div class="list">
+				<a class="item item-avatar" href="#activity">
+				<img src="img/active.png">
+				<div style="font-size:20px"> Recent Account Activity</div>
+				</a>
+			</div>
+			
+			<div class="list">
+				<a class="item item-avatar" href="#health">
+				<img src="img/make.png">
+				<div style="font-size:20px"> Statements</div>
+				</a>
+			</div>
+			<!--
+			This bellow coding used for shwoing all the content 
+			-->
+			<div style="height: 200px;"></div>
+			
+			
+			
+			
+		</div>
+	</ion-content>
 </ion-view>

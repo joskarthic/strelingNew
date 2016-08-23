@@ -1,0 +1,39 @@
+<ion-view>
+  
+
+    <ion-content   >
+	<ion-scroll zooming = "true" direction = "xy" style = "height: 1000px">
+      <div class="row">
+        <div class="col col-center">
+			<h3 class=""><i class="ion ion-arrow-left-a" onclick="window.history.back();"></i > Account Information</h3>
+        </div>
+      </div>
+      
+       <div class="card" >
+         <div style="margin-left:20px; margin-top:10px";>
+                <p><b>Account Number</b></p>
+				<p>5847{{account_information.ACC_NUM}}</p>
+                <p><b>Plan</b></p>
+                <p>fsa{{account_information.PLAN_NAME}}</p>
+				<p><b>HSA Effective Date</b></p>
+                <p>22.08.2016{{account_information.EFFECTIVE_DATE}}</p>
+				<p><b>Account Balance</b></p>
+                <p>$26.08{{account_information.ACCT_BALANCE}}</p>
+		 </div>		
+       </div>
+		 <div class="card" >
+             <div style="margin-left:20px; margin-top:10px";>
+                <p><b>Total Contributions for 2016</b></p>
+				<p>${{total_contributions.CONTRB_LIMIT}}</p>
+                <p><b>Allowable Contributions Remaining for 2016</b></p>
+                <p>${{total_contributions.CURRENT_YR_CONTRB}}</p>
+				<p><b>HSA Effective Date</b></p>
+                <p>22.08.2016{{total_contributions.EFFECTIVE_DATE}}</p>
+				<p><b>Total Disbursement for 2016</b></p>
+                <p>$26.08{{total_contributions.TOTAL_DISB_AMOUNT}}</p>
+			</div>
+        </div>
+    
+     </ion-scroll>
+  </ion-content>
+</ion-view>

@@ -1,15 +1,16 @@
 /* Empty. Add your own CSS if you like */
 .bg{
-	background-color: #1F98E3;
-	color: white;
+	background-color: #1F98E3 !important;
+	color: white !important;
 	max-width: 1000px;
+	font-size: 15px!important;
 	/* background-repeat: no-repeat;
  background-position: 50%;
  height: 100%;
  background-image: url('../img/hsa.jpg');
  background-size:cover; */
 }
-/* .tabs.tabs-custom {
+.tabs.tabs-custom {
   border-color: #5D3A23;
   background-color: #5D3A23;
   background-image: linear-gradient(0deg, #0c60ee, #0c60ee 50%, transparent 50%);
@@ -19,26 +20,48 @@ background-color: red !important;
 }
 .tabs-color-active-dark>.tabs{
 	 background-color: #5D3A23;
-} */
-.tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
-    opacity: 1;
+}
+/* .tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
+    
     background: #6CA0DA;
 	color: white;
-	max-width: 1000px;
-}
-.card {
-  background: rgb(244,244,244);
-  text-align: left;
-}
-.car.item{
-	margin-left: 50px;!important
-}
-.signup{
-   background: black !important
-}
+	
+} */
+
+
 .mynavbar{
   height: 200px !important;
    background: black !important
 }
 
 
+a{
+  text-decoration: none;
+}
+.item1{
+	  background-color: #F4F4F4;
+	    font-size: 20px;
+		
+		
+		/* text-align:justify; */
+		
+  
+}
+.column1{
+	margin-left:90px;
+}
+.col1{
+background:     #ebdef0 ;
+padding: 10px;
+margin-left:50px;
+}
+/* .item-avatar i:first-child, .item-avatar .item-img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 36px;
+    max-width: 40px;
+    max-height: 40px;
+    width: 100%;
+    border-radius: 4px; }
+ */

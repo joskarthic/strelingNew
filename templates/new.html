@@ -1,0 +1,23 @@
+<ion-view>
+    <ion-content>
+        <h3 class=""><i class="ion ion-arrow-left-a" onclick="window.history.back();"></i><b> New Claim Request</b></h3>
+    
+        <div class="list list-inset">
+        <label class="item item-input item-select item-stable" >
+          <div class="input-label">
+           Select Plan
+           
+            </div>
+            <select ng-model="claim" ng-change="getClaim(claim)" placeholder="select your beverage">
+            <option value="" disabled selected>Select Plan</option>
+			<option value="Bicycle">Bicycle FSA</option>
+            <option value="Transit">Transit FSA</option>
+          
+          </select>
+
+            </label>
+      </div>
+
+      
+    </ion-content>
+</ion-view>

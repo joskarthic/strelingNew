@@ -1,0 +1,37 @@
+ <ion-view>
+  
+
+    <ion-content>
+        
+            <div class="list list-inset">
+                    <h3 class=""><i class="ion ion-arrow-left-a" onclick="window.history.back();"></i > Activity Statement</h3> 
+    </div>
+               
+       
+       <div style="background-color: #aebcd7">
+        <br>
+     <div class="list list-inset" >
+        <label class="item item-input item-stacked-label">
+            <span class="input-label"  >Start Date(MM/DD/YYYY)*</span>
+           <!--  <input type="text"> -->
+		   <input type="text" ng-click="getStartDate()" ng-model="activity.startDate" placeholder="">
+        </label>
+      </div>
+     
+     <div class="list list-inset">
+        <label class="item item-input item-stacked-label">
+            <span class="input-label">End Date(MM/DD/YYYY)*</span>
+            <!-- <input type="text"> -->
+            <input type="text"  ng-click="getEndDate()" ng-model="activity.EndtDate" placeholder="">
+        </label>
+      </div>
+     <div class="row">
+        <div class="col col-50 col-offset-25">
+              <button class="button button-full"style="background-color: #bb680b;color: white" ng-click="pick()" >Run Statement</button>
+
+        
+     </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

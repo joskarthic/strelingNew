@@ -1,0 +1,85 @@
+<!-- <ion-view>
+    <style>
+       
+
+    </style>
+       <ion-content>
+           <h3 class="h" > <strong> Recent Disbursement</strong></h3>
+           <div class="div1">         
+           <div class="row">
+             <p>04/28/2014</p>
+           </div>
+          
+           <div class = "row">
+   <div class = "col col1 col-75">Adjesment-Office</div>
+   <div class = "col col2">$33.00</div>
+</div>
+           </div>
+           <div class="div1">
+            
+          
+           <div class="row">
+             <p>04/21/2014</p>
+           </div>
+
+           <div class = "row">
+   <div class = "col col1 col-75">Debit Card Purchase</div>
+   <div class = "col col2">$318.00</div>
+</div>
+            </div>
+           <div class="div1">
+           
+           <div class="row">
+             <p>03/03/2014</p>
+           </div>
+          
+           <div class = "row">
+   <div class = "col col1 col-75">Debit Card Purchase</div>
+   <div class = "col col2">$8.10</div>
+</div>
+            
+           </div>
+ <div class="div1">      
+           <div class="row">
+             <p>02/22/2014</p>
+           </div>
+                
+    
+
+            
+           <div class = "row">
+   <div class = "col col1 col-75">Debit Card Purchase</div>
+   <div class = "col col2">$14.90</div>
+</div>
+            </div>
+ <div class="div1">
+            
+          
+           <div class="row">
+             <p>02/12/2014</p>
+           </div>
+            
+           <div class = "row">
+   <div class = "col col1 col-75">Debit Card Purchase</div>
+   <div class = "col col2">$1,500.0</div>
+</div>
+ </div>
+
+       </ion-content>
+    </ion-view> -->
+
+
+<ion-view>
+	<ion-content>
+		<h3 class="" > <strong> <i class="ion ion-arrow-left-a" onclick="window.history.back();"></i > Recent Contributions</strong></h3>
+		<div class="div1" ng-repeat="data in transcation_list">
+			<div class="row">
+				<p>{{data.FEE_DATE}}</p>
+			</div>
+			<div class = "row">
+				<div class = "col col1 col-75">{{data.FEE_NAME}}</div>
+				<div class = "col col2">{{data.AMOUNT}}</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>
